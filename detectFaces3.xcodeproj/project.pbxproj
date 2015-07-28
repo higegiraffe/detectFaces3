@@ -12,18 +12,7 @@
 		9D63EEEA1B63D00000BDEEF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D63EEE81B63D00000BDEEF1 /* Main.storyboard */; };
 		9D63EEEC1B63D00000BDEEF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D63EEEB1B63D00000BDEEF1 /* Images.xcassets */; };
 		9D63EEEF1B63D00000BDEEF1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D63EEED1B63D00000BDEEF1 /* LaunchScreen.xib */; };
-		9D63EEFB1B63D00000BDEEF1 /* detectFaces3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63EEFA1B63D00000BDEEF1 /* detectFaces3Tests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9D63EEF51B63D00000BDEEF1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9D63EED71B63D00000BDEEF1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D63EEDE1B63D00000BDEEF1;
-			remoteInfo = detectFaces3;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9D63EEDF1B63D00000BDEEF1 /* detectFaces3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = detectFaces3.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,20 +22,10 @@
 		9D63EEE91B63D00000BDEEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D63EEEB1B63D00000BDEEF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9D63EEEE1B63D00000BDEEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9D63EEF41B63D00000BDEEF1 /* detectFaces3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = detectFaces3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D63EEF91B63D00000BDEEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D63EEFA1B63D00000BDEEF1 /* detectFaces3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detectFaces3Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9D63EEDC1B63D00000BDEEF1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D63EEF11B63D00000BDEEF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				9D63EEE11B63D00000BDEEF1 /* detectFaces3 */,
-				9D63EEF71B63D00000BDEEF1 /* detectFaces3Tests */,
 				9D63EEE01B63D00000BDEEF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				9D63EEDF1B63D00000BDEEF1 /* detectFaces3.app */,
-				9D63EEF41B63D00000BDEEF1 /* detectFaces3Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,23 +72,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9D63EEF71B63D00000BDEEF1 /* detectFaces3Tests */ = {
-			isa = PBXGroup;
-			children = (
-				9D63EEFA1B63D00000BDEEF1 /* detectFaces3Tests.swift */,
-				9D63EEF81B63D00000BDEEF1 /* Supporting Files */,
-			);
-			path = detectFaces3Tests;
-			sourceTree = "<group>";
-		};
-		9D63EEF81B63D00000BDEEF1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9D63EEF91B63D00000BDEEF1 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,24 +92,6 @@
 			productReference = 9D63EEDF1B63D00000BDEEF1 /* detectFaces3.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9D63EEF31B63D00000BDEEF1 /* detectFaces3Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9D63EF011B63D00000BDEEF1 /* Build configuration list for PBXNativeTarget "detectFaces3Tests" */;
-			buildPhases = (
-				9D63EEF01B63D00000BDEEF1 /* Sources */,
-				9D63EEF11B63D00000BDEEF1 /* Frameworks */,
-				9D63EEF21B63D00000BDEEF1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9D63EEF61B63D00000BDEEF1 /* PBXTargetDependency */,
-			);
-			name = detectFaces3Tests;
-			productName = detectFaces3Tests;
-			productReference = 9D63EEF41B63D00000BDEEF1 /* detectFaces3Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +103,6 @@
 				TargetAttributes = {
 					9D63EEDE1B63D00000BDEEF1 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					9D63EEF31B63D00000BDEEF1 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 9D63EEDE1B63D00000BDEEF1;
 					};
 				};
 			};
@@ -182,7 +120,6 @@
 			projectRoot = "";
 			targets = (
 				9D63EEDE1B63D00000BDEEF1 /* detectFaces3 */,
-				9D63EEF31B63D00000BDEEF1 /* detectFaces3Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +135,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D63EEF21B63D00000BDEEF1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -217,23 +147,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D63EEF01B63D00000BDEEF1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D63EEFB1B63D00000BDEEF1 /* detectFaces3Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9D63EEF61B63D00000BDEEF1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9D63EEDE1B63D00000BDEEF1 /* detectFaces3 */;
-			targetProxy = 9D63EEF51B63D00000BDEEF1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9D63EEE81B63D00000BDEEF1 /* Main.storyboard */ = {
@@ -358,40 +272,6 @@
 			};
 			name = Release;
 		};
-		9D63EF021B63D00000BDEEF1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = detectFaces3Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/detectFaces3.app/detectFaces3";
-			};
-			name = Debug;
-		};
-		9D63EF031B63D00000BDEEF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = detectFaces3Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/detectFaces3.app/detectFaces3";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,14 +291,7 @@
 				9D63EF001B63D00000BDEEF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		9D63EF011B63D00000BDEEF1 /* Build configuration list for PBXNativeTarget "detectFaces3Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9D63EF021B63D00000BDEEF1 /* Debug */,
-				9D63EF031B63D00000BDEEF1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
